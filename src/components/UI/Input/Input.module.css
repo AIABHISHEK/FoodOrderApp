@@ -1,0 +1,19 @@
+
+.inputBox{
+    display: flex;
+}
+
+.input {
+    width: 2.5rem;
+    margin-left: 4px;
+    border: 2px solid transparent;
+    color: rgb(1, 1, 1);
+    background-color: white;
+}
+.input:hover{
+    background-color: rgb(251, 64, 74);
+}
+.label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.775);
+}

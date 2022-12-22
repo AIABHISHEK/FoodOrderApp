@@ -1,0 +1,11 @@
+.foodList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foodSection{
+    padding: 2em 0em;
+    margin:0 0.55rem;
+}

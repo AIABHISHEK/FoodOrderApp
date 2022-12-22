@@ -1,0 +1,27 @@
+
+.modal{
+    z-index: 100;
+    position: fixed;
+    width: 60vw;
+    /* height: 60vh; */
+    padding: 1rem;
+    top: 20vh;
+    left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(149, 59, 59, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.modal-container{
+    margin: 0;
+    width: 90%;
+    height: 90%;
+    padding: rem;
+    /* background-color: rgb(232, 95, 95); */
+    /* border: 1px dotted #ccc; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

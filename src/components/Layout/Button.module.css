@@ -1,0 +1,70 @@
+.button{
+    border: 1px solid rgb(44, 33, 32);
+    border-radius: 16px;
+    padding: 0.2rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    transition-duration: 100ms;
+    
+}
+.animationButton{
+animation: button-animation;
+    animation-duration: 400ms;
+    /* animation-delay: 10ms; */
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.span{
+    margin: 0.1em;
+    padding: 1px 4px;
+}
+.icon{
+    border-radius: 25px;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+    border: 1px solid rgb(44, 33, 32);
+    background-color: aqua;
+}
+
+.number{
+    color: aliceblue;
+    border: 1px solid rgb(116, 37, 37);
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.button:hover,
+.button:active{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    transition-duration: 350ms;
+    scale: 1;
+}
+
+@keyframes button-animation {
+    0% {
+        
+        /* background-color: red; */
+        transform: scale(1.1, 1);
+    }
+
+    25% {
+        transform: scale(1.15, 1.1);
+    }
+
+    50% {
+        /* scale: ; */
+        transform: scale(1.2, 1.2);
+    }
+    75%{
+        transform: scale(1.15, 1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+

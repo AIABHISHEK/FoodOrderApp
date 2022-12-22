@@ -1,0 +1,10 @@
+
+
+.summary{
+    text-align: center;
+    /* width: 20em; */
+    margin-top: 0px;
+    position: relative;
+    background-color: rgba(248, 130, 130, 0.726);
+    z-index: 0;
+}
