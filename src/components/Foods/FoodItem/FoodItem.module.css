@@ -3,12 +3,9 @@
 .FoodItem{
     list-style: none;
     background-color: bisque;
-    /* color: red; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
-    /* align-items: center; */
     border-bottom-left-radius: 16px;
     border-bottom: 2px solid rgb(68, 33, 12);
     width: 80%;
